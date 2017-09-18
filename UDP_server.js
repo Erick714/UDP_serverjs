@@ -96,7 +96,7 @@ server.on('listening', () =>
   });
 
 server.bind({
-      address: '192.168.0.100',
-      port: 1030,
+    //  address: '192.168.0.100',
+      port: 1022
     //  exclusive: true
 });
