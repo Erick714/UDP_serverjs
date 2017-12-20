@@ -1,0 +1,17 @@
+All json tags should be lowercase
+JSON should have two header 1-device info, 2 -connection info
+
+
+*****************************************
+example at this moment 9/19/2017
+{
+  "device info": {
+    "c6 id": "0123456789",
+    "version": "0.01v"
+  },
+  "connection": {
+    "ip": "192.168.0.100",
+    "port": 59849
+  }
+}
+*****************************************

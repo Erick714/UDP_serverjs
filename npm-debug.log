@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongodb' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongodb
+8 silly fetchNamedPackageData mongodb
+9 silly mapToRegistry name mongodb
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'mongodb',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'mongodb',
+12 silly mapToRegistry   name: 'mongodb',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+14 verbose request uri https://registry.npmjs.org/mongodb
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:37:44 AM
+17 verbose request id fba44a2ff3482064
+18 http request GET https://registry.npmjs.org/mongodb
+19 verbose stack AssertionError: 2259 == 0
+19 verbose stack     at ClientRequest.onConnect (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:159:14)
+19 verbose stack     at ClientRequest.g (events.js:292:16)
+19 verbose stack     at emitThree (events.js:116:13)
+19 verbose stack     at ClientRequest.emit (events.js:194:7)
+19 verbose stack     at Socket.socketOnData (_http_client.js:395:11)
+19 verbose stack     at emitOne (events.js:96:13)
+19 verbose stack     at Socket.emit (events.js:188:7)
+19 verbose stack     at readableAddChunk (_stream_readable.js:176:18)
+19 verbose stack     at Socket.Readable.push (_stream_readable.js:134:10)
+19 verbose stack     at TCP.onread (net.js:547:20)
+20 verbose cwd C:\Users\ErnestC\Desktop\Documents\node_js
+21 error Windows_NT 6.1.7601
+22 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongodb"
+23 error node v6.11.3
+24 error npm  v3.10.10
+25 error 2259 == 0
+26 error If you need help, you may report this error at:
+26 error     <https://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]
